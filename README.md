@@ -3,7 +3,9 @@
 ## Project Plan
 
 Quarterly plan: https://docs.google.com/spreadsheets/d/1RamKHGMi_xrJnVlogC0iIhGUnDuygZJPrGm8gGxJI4Y/edit#gid=2120097640
-Weekly project plan for a complete year: <a href="hhttps://docs.google.com/spreadsheets/d/1RamKHGMi_xrJnVlogC0iIhGUnDuygZJPrGm8gGxJI4Y/edit#gid=1348135932/" target="_blank">weeklyplan</a> 
+Weekly project plan for a complete year: <a href="https://docs.google.com/spreadsheets/d/1RamKHGMi_xrJnVlogC0iIhGUnDuygZJPrGm8gGxJI4Y/edit#gid=1348135932/" target="_blank">weeklyplan</a> 
+
+[I'm an inline-style link with title]([https://www.google.com](https://docs.google.com/spreadsheets/d/1RamKHGMi_xrJnVlogC0iIhGUnDuygZJPrGm8gGxJI4Y/edit#gid=1348135932/" target="_blank") "Google's Homepage")
 
 ## Overview of the project
 
