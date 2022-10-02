@@ -19,7 +19,7 @@ Project workspace on Trello: <a href="https://trello.com/invite/b/i1jzP7lV/c72af
 
 You can find Makefile, tests, and application scaffolding to test code locally in the Azure Cloud Shell.
 
-![Source Code - Cloud](https://github.com/yusufgbagci/proje2-main/blob/master/azure-cloud-shell.png?raw=true)
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/master/azure-cloud-shell.png?raw=true)
 
 
 -In this step files:
@@ -32,16 +32,16 @@ You can find Makefile, tests, and application scaffolding to test code locally i
 
 ### Testing the test_python and Makefile
 
-![Source Code - Cloud](https://github.com/yusufgbagci/proje2-main/blob/master/ss2.jpg?raw=true)
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/master/ss2.jpg?raw=true)
 
 
-![Source Code - Cloud](https://github.com/yusufgbagci/proje2-main/blob/master/ss3.jpg?raw=true)
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/master/ss3.jpg?raw=true)
 
 
 
 ## Project Clone into Azure Cloud Shell
 
-![Source Code - Cloud](https://github.com/yusufgbagci/proje2-main/blob/master/ss1.jpg?raw=true)
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/master/ss1.jpg?raw=true)
 
 This image is proof of connection between Azure Cloud Shell and Github.
 
@@ -80,7 +80,7 @@ jobs:
 
 ### Verifying Remote Tests pass 
 
-![Source Code - Cloud](https://github.com/yusufgbagci/proje2-main/blob/master/ss4.jpg?raw=true)
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/master/ss4.jpg?raw=true)
 
 
 ## Continuous Delivery on Azure
@@ -98,7 +98,7 @@ And then, Make prediction file can run;
 ```sh
 ./make_prediction.sh
 ```
-![Source Code - Cloud](https://github.com/yusufgbagci/proje2-main/blob/master/ss6.jpg?raw=true)
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/master/ss6.jpg?raw=true)
 
 
 ### Also last step of project deploying Azure piplines showed in this video;
