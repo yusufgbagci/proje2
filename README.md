@@ -104,6 +104,5 @@ And then, Make prediction file can run;
 ### Also last step of project deploying Azure piplines showed in this video;
 
 
-```sh
-https://youtu.be/uZpi8ToOBbk
-```
+<a href="https://youtu.be/uZpi8ToOBbk" target="_blank">youtubelink</a> 
+
