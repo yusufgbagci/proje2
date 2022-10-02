@@ -9,7 +9,7 @@ Weekly project plan: <a href="https://docs.google.com/spreadsheets/d/1RamKHGMi_x
 
 
 ## Trello
-Project workspace on Trello: <a href="https://docs.google.com/spreadsheets/d/1RamKHGMi_xrJnVlogC0iIhGUnDuygZJPrGm8gGxJI4Y/edit#gid=1348135932/" target="_blank">weeklyplan</a> 
+Project workspace on Trello: <a href="https://trello.com/invite/b/i1jzP7lV/c72afa8d002a985b49e5d9bf83ef292e/mlops/" target="_blank">trelloplan</a> 
 
 
 ## Overview of the project
