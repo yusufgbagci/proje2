@@ -12,10 +12,34 @@ Weekly project plan: <a href="https://docs.google.com/spreadsheets/d/1RamKHGMi_x
 Project workspace on Trello: <a href="https://trello.com/invite/b/i1jzP7lV/c72afa8d002a985b49e5d9bf83ef292e/mlops/" target="_blank">trelloplan</a> 
 
 
+
+
+## Project Clone into Azure Cloud Shell
+
+
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/github_intg.jpg?raw=true)
+
+
+```sh
+git clone git@github.com:yusufgbagci/proje2.git
+
+cd proje2
+
+python3 -m venv ~/.myrepo
+source ~/.myrepo/bin/activate
+```
+
+
+
+
+
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/ss1.jpg?raw=true)
+This image is proof of connection between Azure Cloud Shell and Github
+
+
+
+
 ## Overview of the project
-
-
-
 
 You can find Makefile, tests, and application scaffolding to test code locally in the Azure Cloud Shell.
 
