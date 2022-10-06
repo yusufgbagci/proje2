@@ -63,11 +63,6 @@ You can find Makefile, tests, and application scaffolding to test code locally i
 
 
 
-## Project Clone into Azure Cloud Shell
-
-![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/ss1.jpg?raw=true)
-
-This image is proof of connection between Azure Cloud Shell and Github.
 
 
 ##  CI: Configure GitHub Actions
@@ -102,21 +97,25 @@ jobs:
         make test
 ```
 
-### Verifying Remote Tests pass 
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/CI1.jpg?raw=true)
 
-![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/ss4.jpg?raw=true)
+When commited the python.yaml file, the build automation will be build automatically.
 
 
-## Continuous Delivery on Azure
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/CI2.jpg?raw=true)
 
-This step involve setting up Azure Pipelines to deploy the Flask starter code to Azure App Services.
+Updating the in the file make_predict_azure_app.sh
+
+
+Before creating the Azure pipeline, it is necessary to run the stages locally as desired. For this reason, python app.py file is run by entering the same Azure account from two different pages at the same time.
+
 
 Firstly, in Azure bash must python app run;
 
 ```sh
 python app.py
 ```
-And then, Make prediction file can run;
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/CI3.jpg?raw=true)
 
 
 ```sh
@@ -125,6 +124,36 @@ And then, Make prediction file can run;
 ![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/ss6.jpg?raw=true)
 
 
+
+### Verifying Remote Tests pass 
+
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/ss4.jpg?raw=true)
+
+
+
+
+
+
+
+## Continuous Delivery on Azure
+This step involve setting up Azure Pipelines to deploy the Flask starter code to Azure App Services.
+
+As a final step, we will run the website that we run locally in the cloud environment using Azure DEVOPS pipline. The benefit of this is that when a change is made to the main file automatically, you will not need to redo the whole change.
+
+
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/pip1.jpg?raw=true)
+
+
+Linked Github repo for this
+Azure connection made with Appservice service
+Created a new pipline
+
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/pip2.jpg?raw=true)
+
+It will now trigger CI on github actions for each commit and Azure pipeline will CI and deliver the update to webapp service (CD) via Azure Pipeline success
+
+
+![Source Code - Cloud](https://github.com/yusufgbagci/proje2/blob/main/pip3.jpg?raw=true)
 ### Also last step of project deploying Azure piplines showed in this video;
 
 
